@@ -1,0 +1,23 @@
+{
+  "caseId": "epub-reading-order",
+  "title": "EPUB 阅读序谱：package spine、fallback 链与锚点完整性审阅",
+  "narrative": "数字出版团队导入 EPUB 容器，审查 package manifest、spine、navigation、media-overlay 和资源引用图",
+  "baseline": "base/ 目录原样打包，ZIP 条目字节、container.xml、package 文档、media type、fallback、fragment 与未识别 metadata 均保留",
+  "edgeCases": [
+    "multi-package: container.xml 声明 OEBPS/content.opf 与 OEBPS2/alt.opf",
+    "fallback-cycle: clipA -> clipB -> clipC -> clipA",
+    "fallback-missing: chart -> ghostFallback（与循环分开报告）",
+    "fragment-missing: nav.xhtml 引用 ch2.xhtml#nope",
+    "path-escape: manifest item evil href=../../outside-container.xhtml",
+    "spine-duplicate: ch2 在 spine 中出现两次",
+    "overlay-broken: overlay.smil 引用 ch9.xhtml#p1",
+    "unknown-metadata: acme:proofreadingState 与 acme:internalFlag 原样保留并往返"
+  ],
+  "script": [
+    { "step": 1, "kind": "Import", "note": "基线导入，params-v1" },
+    { "step": 2, "kind": "ParameterRevision", "note": "参数修订：spine 重复升级为错误，params-v2" },
+    { "step": 3, "kind": "SourceChange", "note": "局部源数据改动：仅修复 nav.xhtml 的缺失锚点" },
+    { "step": 4, "kind": "Decision", "note": "人工决定：接受 overlay 断链为已知问题" },
+    { "step": 5, "kind": "Decision", "note": "冲突决定：否决上一条，要求修复；旧决定被标记失效区间与原因" }
+  ]
+}

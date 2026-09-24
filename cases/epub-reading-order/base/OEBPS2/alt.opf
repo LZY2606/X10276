@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata>
+    <dc:identifier id="uid">urn:uuid:epub-reading-order-case-alt</dc:identifier>
+    <dc:title>备用渲染包</dc:title>
+    <dc:language>zh</dc:language>
+  </metadata>
+  <manifest>
+    <item id="alt1" href="alt1.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine>
+    <itemref idref="alt1"/>
+  </spine>
+</package>
