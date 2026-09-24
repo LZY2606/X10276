@@ -34,3 +34,13 @@ coverage/
 .vite/
 .turbo/
 *.tsbuildinfo
+
+# .NET build/runtime
+bin/
+obj/
+*.user
+EpubReview.Web/data/*.sqlite
+EpubReview.Web/data/*.sqlite-shm
+EpubReview.Web/data/*.sqlite-wal
+EpubReview.Web/data/*.old
+EpubReview.Web/data/*.old-*
