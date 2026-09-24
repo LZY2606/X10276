@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/EpubReview.Api/EpubReview.Api.csproj" />
+    <Project Path="src/EpubReview.Core/EpubReview.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/EpubReview.Tests/EpubReview.Tests.csproj" />
+  </Folder>
+</Solution>
