@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/EpubReview/EpubReview.csproj" />
+  <Project Path="tests/EpubReview.Tests/EpubReview.Tests.csproj" />
+</Solution>
