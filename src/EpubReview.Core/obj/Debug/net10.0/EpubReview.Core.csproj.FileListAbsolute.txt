@@ -1,0 +1,12 @@
+/Users/mac/pro/Pair-wiseGSB/pairwise-gsb-20260919-003312/workspace/1249/runs/A/work/src/EpubReview.Core/obj/Debug/net10.0/EpubReview.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/pro/Pair-wiseGSB/pairwise-gsb-20260919-003312/workspace/1249/runs/A/work/src/EpubReview.Core/obj/Debug/net10.0/EpubReview.Core.AssemblyInfoInputs.cache
+/Users/mac/pro/Pair-wiseGSB/pairwise-gsb-20260919-003312/workspace/1249/runs/A/work/src/EpubReview.Core/obj/Debug/net10.0/EpubReview.Core.AssemblyInfo.cs
+/Users/mac/pro/Pair-wiseGSB/pairwise-gsb-20260919-003312/workspace/1249/runs/A/work/src/EpubReview.Core/obj/Debug/net10.0/EpubReview.Core.csproj.CoreCompileInputs.cache
+/Users/mac/pro/Pair-wiseGSB/pairwise-gsb-20260919-003312/workspace/1249/runs/A/work/src/EpubReview.Core/obj/Debug/net10.0/EpubReview.Core.sourcelink.json
+/Users/mac/pro/Pair-wiseGSB/pairwise-gsb-20260919-003312/workspace/1249/runs/A/work/src/EpubReview.Core/bin/Debug/net10.0/EpubReview.Core.deps.json
+/Users/mac/pro/Pair-wiseGSB/pairwise-gsb-20260919-003312/workspace/1249/runs/A/work/src/EpubReview.Core/bin/Debug/net10.0/EpubReview.Core.dll
+/Users/mac/pro/Pair-wiseGSB/pairwise-gsb-20260919-003312/workspace/1249/runs/A/work/src/EpubReview.Core/bin/Debug/net10.0/EpubReview.Core.pdb
+/Users/mac/pro/Pair-wiseGSB/pairwise-gsb-20260919-003312/workspace/1249/runs/A/work/src/EpubReview.Core/obj/Debug/net10.0/EpubReview.Core.dll
+/Users/mac/pro/Pair-wiseGSB/pairwise-gsb-20260919-003312/workspace/1249/runs/A/work/src/EpubReview.Core/obj/Debug/net10.0/refint/EpubReview.Core.dll
+/Users/mac/pro/Pair-wiseGSB/pairwise-gsb-20260919-003312/workspace/1249/runs/A/work/src/EpubReview.Core/obj/Debug/net10.0/EpubReview.Core.pdb
+/Users/mac/pro/Pair-wiseGSB/pairwise-gsb-20260919-003312/workspace/1249/runs/A/work/src/EpubReview.Core/obj/Debug/net10.0/ref/EpubReview.Core.dll
