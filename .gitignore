@@ -34,3 +34,10 @@ coverage/
 .vite/
 .turbo/
 *.tsbuildinfo
+
+# --- .NET build artifacts ---
+bin/
+obj/
+data/*.db
+data/*.db-*
+*.eprv
